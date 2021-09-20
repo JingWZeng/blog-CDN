@@ -115,6 +115,39 @@ body,
 
 }
 
+.icon-huaban88:before {
+    content: "\e600";
+}
+
+.icon-youjian:before {
+    content: "\e600";
+}
+
+.icon-qq:before {
+    content: "\e600";
+}
+
+.icon-weixin:before {
+    content: "\e600";
+}
+
+.icon-zhihu:before {
+    content: "\e600";
+}
+
+.icon-wangyiyunyinle:before {
+    content: "\e600";
+}
+
+.icon-bilibili-copy:before {
+    content: "\e600";
+}
+
+.icon-huyaxianxing_huaban:before {
+    content: "\e600";
+}
+
+
 /* 卡片处小图标 */
 .menus_items .menus_item .iconfont {
     /* 修改颜色 */
