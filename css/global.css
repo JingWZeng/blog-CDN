@@ -33,20 +33,113 @@ body,
     font-family: zjw !important;
 }
 
-#site-title{
-    font:1000 60pt zjw;
-    font-size:5.58em !important;
-    color:#fffc00;
+#site-title {
+    font: 1000 60pt zjw;
+    font-size: 5.58em !important;
+    color: #fffc00;
     text-shadow: 0 1px 0 #ccc,
-    0 2px 0 #c9c9c9,
-    0 3px 0 #bbb,
-    0 4px 0 #b9b9b9,
-    0 5px 0 #aaa,
-    0 6px 1px rgba(0,0,0,.1),
-    0 0 5px rgba(0,0,0,.1),
-    0 1px 3px rgba(0,0,0,.3),
-    0 3px 5px rgba(0,0,0,.2),
-    0 5px 10px rgba(0,0,0,.25),
-    0 10px 10px rgba(0,0,0,.2),
-    0 20px 20px rgba(0,0,0,.15) !important;
+        0 2px 0 #c9c9c9,
+        0 3px 0 #bbb,
+        0 4px 0 #b9b9b9,
+        0 5px 0 #aaa,
+        0 6px 1px rgba(0, 0, 0, .1),
+        0 0 5px rgba(0, 0, 0, .1),
+        0 1px 3px rgba(0, 0, 0, .3),
+        0 3px 5px rgba(0, 0, 0, .2),
+        0 5px 10px rgba(0, 0, 0, .25),
+        0 10px 10px rgba(0, 0, 0, .2),
+        0 20px 20px rgba(0, 0, 0, .15) !important;
+}
+
+.icon-wenzhang:before {
+    content: "\e600";
+}
+
+.icon-home:before {
+    content: "\e600";
+
+}
+
+.icon-liuyan:before {
+    content: "\e600";
+
+}
+
+.icon-talk:before {
+    content: "\e600";
+
+}
+
+.icon-youlianguanli:before {
+    content: "\e600";
+
+}
+
+.icon-guanyuwomen:before {
+    content: "\e600";
+
+}
+
+.icon-shijianzhou:before {
+    content: "\e600";
+
+}
+
+.icon-biaoqian:before {
+    content: "\e600";
+
+}
+
+.icon-icon:before {
+    content: "\e600";
+
+}
+
+.icon-shenghuo:before {
+    content: "\e600";
+
+}
+
+.icon-yinle:before {
+    content: "\e600";
+
+}
+
+.icon-dianying:before {
+    content: "\e600";
+
+}
+
+.icon-icon-map:before {
+    content: "\e600";
+
+}
+
+/* 卡片处小图标 */
+.menus_items .menus_item .iconfont {
+    /* 修改颜色 */
+    color: #e3b236;
+    /* 修改大小 */
+    /* font-size: 24px; */
+}
+
+.menus_items .menus_item .site-page i {
+    animation: float 2s infinite linea;
+}
+
+@keyframes float {
+    0% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0)
+    }
+
+    50% {
+        -webkit-transform: translateY(-6px);
+        transform: translateY(-6px)
+    }
+
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0)
+    }
 }
