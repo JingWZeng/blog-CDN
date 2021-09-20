@@ -156,9 +156,14 @@ body,
     /* font-size: 24px; */
 }
 
+#aside-content .card-info .card-info-social-icons .social-icon {
+    color: #e3b236;
+}
+
 .menus_items .menus_item .site-page i {
     animation: float 2s infinite linear;
 }
+
 
 @keyframes float {
     0% {
