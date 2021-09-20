@@ -124,7 +124,7 @@ body,
 }
 
 .menus_items .menus_item .site-page i {
-    animation: float 2s infinite linea;
+    animation: float 2s infinite linear;
 }
 
 @keyframes float {
